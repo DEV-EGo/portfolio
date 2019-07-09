@@ -3,13 +3,16 @@ h1{
     font-family: fantasy;
     border-style: double;
     text-align: center;
-    color: yellowgreen;
+    color: yellow;
 
 }
 
 .jumbotron {
-    background-color: rgb(3, 129, 175);
-    background-image: url("load.gif");
+    background-color: black;
+    background-repeat: no-repeat;
+    background-size: 110% 100%;
+
+    background-image: url("image.gif");
     justify-content: center;
 
 
