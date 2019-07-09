@@ -1,17 +1,28 @@
 body {
 	background-image: url("../images/background.jpg");
+  	background-repeat: no-repeat;
+  	background-size: 110% 100%;
 	font-family: 'Lato', sans-serif;
 }
 
-
+h1 {
+	color: gold;
+	width:70%; 
+    margin-left:48%; 
+    margin-right:15%;
+}
 
 #quiz {
-	margin-left: 10px;
+
+	width:70%; 
+    margin-left:20%; 
+    margin-right:4%;
+	/* margin-left: 10px; */
 	background: #d2def2;
 	padding: 10px 20px 10px 20px;
 	width: 400px;
 	border-radius: 20px;
-	float: left;
+	float: none;
 
 }
 
@@ -51,19 +62,26 @@ input {
 }
 
 #after_submit {
+
+	width:70%; 
+    margin-left:15%; 
+    margin-right:15%;
 	visibility: hidden;
 	background: #ff5459;
 	padding: 10px 20px 10px 20px;
-	width: 400px;
+	/* width: 400px; */
 	border-radius: 20px;
-	float: left;
-	margin-left: 20px;
+	/* float: left; */
+	/* margin-left: 20px; */
 	font-size: 30px;
 
 
 }
 
 #picture {
+	width:70%; 
+    margin-left:50%; 
+    margin-right:15%;
 	width: 375px;
 	height: 245px;
 }

@@ -194,6 +194,7 @@ h1  {
     color: #0ead00;
     text-decoration: none;
     background-color: transparent;
+    font-size: 15px;
 }
 /* CardTitle */
 .card-body{
@@ -248,7 +249,9 @@ h1  {
 .btn-primary {
     color: #10efa0;
     border-color: #343a40;
-    background-color: #343a40;
+    background-color: #0e0e0e;
+    height: 40px;
+    width: 102px;
 }
 
 h2 {
