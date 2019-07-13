@@ -337,3 +337,26 @@ input {
 #mc {
 	display: inline;
 } 
+/* mobile response */
+.navbar-toggler {
+    overflow: scroll;
+    background-color: #333;
+  }
+  
+  /* Style the topnav links */
+  .nav-link.active {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  /* On screens that are 600px wide or less, make the menu links stack on top of each other instead of next to each other */
+  @media screen and (max-width: 600px) {
+    .topnav a {
+      float: none;
+      width: 100%;
+    }
+  }
