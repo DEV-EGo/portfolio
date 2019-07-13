@@ -94,7 +94,7 @@ body{
 /* portfolio */
 /* ------------------------------------------- */
 .card{
-    /* width: 250px; */
+    width: 750px;
     box-shadow: 5px 5px 7px 5px #000000;
     position: relative;
     display: -ms-flexbox;
@@ -251,7 +251,8 @@ h1  {
     border-color: #343a40;
     background-color: #0e0e0e;
     height: 40px;
-    width: 102px;
+    width: 150px;
+    font-size: 11px;
 }
 
 h2 {
